@@ -1,0 +1,36 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OAX_2  and  CAD_3 
+REMARK    2  A    between atoms: CAC_23  and  OAB_24 
+ROOT
+HETATM    1  CAD LIG     1      19.710  -7.440   0.100  1.00 20.00     0.114 A 
+HETATM    2  CAE LIG     1      18.290  -7.460   0.110  1.00 20.00     0.026 A 
+HETATM    3  CAF LIG     1      17.510  -6.300  -0.020  1.00 20.00     0.112 A 
+HETATM    4  NAG LIG     1      16.090  -6.400  -0.080  1.00 20.00    -0.331 N 
+HETATM    5  CAT LIG     1      15.380  -5.170  -0.140  1.00 20.00     0.097 A 
+HETATM    6  CAS LIG     1      13.990  -5.170  -0.140  1.00 20.00     0.030 A 
+HETATM    7  CAR LIG     1      13.310  -6.390  -0.100  1.00 20.00    -0.020 A 
+HETATM    8  CAQ LIG     1      11.900  -6.370  -0.120  1.00 20.00     0.052 A 
+HETATM    9  CAP LIG     1      11.230  -7.540  -0.090  1.00 20.00     0.105 A 
+HETATM   10  OAU LIG     1       9.890  -7.730   0.060  1.00 20.00    -0.323 OA
+HETATM   11  CAV LIG     1       9.730  -9.120  -0.280  1.00 20.00     0.352 C 
+HETATM   12  OAW LIG     1      10.970  -9.730   0.120  1.00 20.00    -0.323 OA
+HETATM   13  CAO LIG     1      11.870  -8.730  -0.050  1.00 20.00     0.106 A 
+HETATM   14  CAN LIG     1      13.220  -8.820  -0.030  1.00 20.00     0.054 A 
+HETATM   15  CAM LIG     1      14.010  -7.630  -0.050  1.00 20.00     0.004 A 
+HETATM   16  CAH LIG     1      15.430  -7.620  -0.040  1.00 20.00     0.050 A 
+HETATM   17  CAI LIG     1      16.210  -8.790   0.070  1.00 20.00     0.043 A 
+HETATM   18  CAJ LIG     1      17.610  -8.710   0.140  1.00 20.00    -0.019 A 
+HETATM   19  CAK LIG     1      18.340  -9.920   0.130  1.00 20.00     0.015 A 
+HETATM   20  CAL LIG     1      19.730  -9.890   0.050  1.00 20.00     0.040 A 
+HETATM   21  CAC LIG     1      20.410  -8.660   0.010  1.00 20.00     0.102 A 
+ENDROOT
+BRANCH   1  22
+HETATM   22  OAX LIG     1      20.350  -6.630   1.020  1.00 20.00    -0.352 OA
+HETATM   23  CAY LIG     1      20.530  -5.220   0.800  1.00 20.00     0.210 C 
+ENDBRANCH   1  22
+BRANCH  21  24
+HETATM   24  OAB LIG     1      21.700  -8.730  -0.480  1.00 20.00    -0.353 OA
+HETATM   25  CAA LIG     1      22.320  -7.720  -1.290  1.00 20.00     0.210 C 
+ENDBRANCH  21  24
+TORSDOF 2
